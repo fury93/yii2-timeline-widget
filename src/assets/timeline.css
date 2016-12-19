@@ -1,6 +1,6 @@
 .timeline {
     position: relative;
-    margin: 0 0 30px 0;
+    margin: 10px 0 30px 0;
     padding: 0;
     list-style: none;
 }
@@ -99,4 +99,18 @@
 .timeline>li>.timeline-item>.timeline-data>.timeline-body,
 .timeline>li>.timeline-item>.timeline-data>.timeline-footer{
     padding: 10px 0;
+}
+
+.timeline>li>.fa{
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    line-height: 30px;
+    position: absolute;
+    color: #666;
+    background: #d2d6de;
+    border-radius: 50%;
+    text-align: center;
+    left: 18px;
+    top: 0;
 }

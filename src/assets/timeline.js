@@ -11,4 +11,4 @@ jQuery(document).ready(function($){
             $body.slideUp();
         }
     })
-})
+});

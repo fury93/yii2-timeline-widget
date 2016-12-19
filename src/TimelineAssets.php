@@ -1,12 +1,7 @@
 <?php
 
-namespace vivekmarakana\widgets;
+namespace fury93\widgets;
 
-/**
- * Asset bundle for Timeline Widget
- *
- * @author Vivek Marakana <vivek.marakana@gmail.com>
- */
 class TimelineAssets extends \yii\web\AssetBundle
 {
     public $depends = [

@@ -1,6 +1,6 @@
 Yii2 Timeline Widget
 ====================
-Timeline/Telemetry Widget for Yii2
+Timeline Widget for Yii2
 
 Installation
 ------------
@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist vivekmarakana/yii2-timeline-widget "*"
+php composer.phar require --prefer-dist fury93/yii2-timeline-widget "*"
 ```
 
 or add
 
 ```
-"vivekmarakana/yii2-timeline-widget": "*"
+"fury93/yii2-timeline-widget": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -43,6 +43,6 @@ Once the extension is installed, simply use it in your code by  :
 
         $items[] = $data;
     }
-    \vivekmarakana\widgets\Timeline::widget(['items' => $items]);
+    \fury93\widgets\Timeline::widget(['items' => $items]);
 ?>
 ```
