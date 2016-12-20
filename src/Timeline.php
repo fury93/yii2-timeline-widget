@@ -15,12 +15,14 @@ class Timeline extends \yii\base\Widget
     public $icon_font_color = "#FFF";
     public $collapsible = true;
     public $id;
+    public $defaultText = 'No data available.';
 
     public function run()
     {
         return $this->render('timeline', [
             'history' => $this->items,
             'icon' => $this->icon,
+            'defaultText' => $this->defaultText,
             'icon_color' => $this->icon_color,
             'icon_font_color' => $this->icon_font_color,
             'collapsible' => $this->collapsible,

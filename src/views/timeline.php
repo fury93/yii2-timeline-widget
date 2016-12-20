@@ -44,5 +44,5 @@ if (count($history) > 0):
         <?php endfor; ?>
     </ul>
 <?php else: ?>
-    <h2>No data available.</h2>
+    <h2><?= $defaultText ?></h2>
 <?php endif; ?>
